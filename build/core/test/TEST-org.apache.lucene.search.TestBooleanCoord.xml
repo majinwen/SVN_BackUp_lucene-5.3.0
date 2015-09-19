@@ -1,0 +1,113 @@
+<testsuite errors="0" failures="0" tests="76" skipped="0" name="org.apache.lucene.search.TestBooleanCoord" hostname="nohost.nodomain" time="0.551" timestamp="2015-09-19T12:22:13">
+   <properties class="java.util.ArrayList">
+      <property name="file.separator" value="\"/>
+      <property name="java.class.path" value="C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\codecs\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\test-framework\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\test-framework\lib\junit-4.10.jar;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\test-framework\lib\randomizedtesting-runner-2.1.13.jar;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\classes\test;D:\Softwares\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Users\SAQIB\.ant\lib\ivy-2.3.0.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-antlr.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-bcel.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-bsf.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-log4j.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-oro.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-regexp.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-resolver.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-xalan2.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-commons-logging.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-commons-net.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jai.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-javamail.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jdepend.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jmf.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jsch.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-junit.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-junit4.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-netrexx.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-swing.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-testutil.jar;D:\Softwares\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_05\lib\tools.jar;C:\Users\SAQIB\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\jars\junit4-ant-2.1.13.jar"/>
+      <property name="java.class.version" value="52.0"/>
+      <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+      <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
+      <property name="java.io.tmpdir" value="./temp"/>
+      <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files\TortoiseSVN\bin;D:\Softwares\apache-ant-1.9.6\\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Java\jdk1.8.0_05\bin;D:\Softwares\apache-ant-1.9.6\bin;C:\Program Files\Skype\Phone\;."/>
+      <property name="java.specification.name" value="Java Platform API Specification"/>
+      <property name="java.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.specification.version" value="1.8"/>
+      <property name="java.vendor" value="Oracle Corporation"/>
+      <property name="java.vendor.url" value="http://java.oracle.com/"/>
+      <property name="java.version" value="1.8.0_05"/>
+      <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+      <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.specification.version" value="1.8"/>
+      <property name="java.vm.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.version" value="25.5-b02"/>
+      <property name="junit4.memory.total" value="16252928"/>
+      <property name="junit4.pidString" value="9132@localhost"/>
+      <property name="junit4.processors" value="4"/>
+      <property name="line.separator" value="
+"/>
+      <property name="os.arch" value="x86"/>
+      <property name="os.name" value="Windows 7"/>
+      <property name="os.version" value="6.1"/>
+      <property name="path.separator" value=";"/>
+      <property name="user.dir" value="C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\test\J0"/>
+      <property name="user.home" value="C:\Users\SAQIB"/>
+      <property name="user.name" value="SAQIB"/>
+   </properties>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf4CoordDisabled" time="0.155"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatches1Prohib" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch2OutOfThreeMissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch2OutOfThreeCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2OutOf3Missing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf2" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf2CoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfThree" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch2OutOfThreeMissing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch2OutOfThree" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch3OutOfFourCoordDisabled" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3CoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunctionNestedSingle" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3MissingOneCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf4" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch3OutOfFourMissing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch2OutOfThreeMissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3MissingTwoCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf2" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatches2ProhibCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1TermMatchesCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction2TermMatches" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf3Missing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunctionNestedOuterCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf3MissingCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfTwoMissing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3MissingTwo" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatches1ProhibCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2OutOf3CoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfTwo" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfTwoCoordDisabled" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf3CoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfTwoMissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf2MissingCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatches2Prohib" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunctionNestedInnerCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1TermMatches" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2TermMatchesCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3MissingOneCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf2MissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3MissingTwo" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfThreeOneMissing" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf2Missing" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2TermMatchesCoordDisabled" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf3" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf2CoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch2OutOfThreeCoordDisabled" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1TermMatches" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatches" time="0.001"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1TermMatchesCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunctionNestedCoordDisabledEverywhere" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3CoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2OutOf3MissingCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction2TermMatchesCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfThreeOneMissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2OutOf3" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf3MissingOne" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction3TermMatches" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3MissingTwoCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch3OutOfFour" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunction1TermMatchesCoordDisabled" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf4Missing" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch1OutOf2Missing" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMatch1OutOfThreeCoordDisabled" time="0.004"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch2OutOfThreeMissing" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction1OutOf3MissingOne" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch3OutOfFourMissingCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatch2OutOf4MissingCoordDisabled" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMixMinShouldMatch2OutOfThree" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMinShouldMatchn2TermMatches" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testDisjunction2TermMatches" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMix2TermMatchesCoordDisabled" time="0.002"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testConjunctionNested" time="0.003"/>
+   <testcase classname="org.apache.lucene.search.TestBooleanCoord" name="testMix2TermMatches" time="0.002"/>
+   <system-out><![CDATA[]]></system-out>
+   <system-err><![CDATA[]]></system-err>
+</testsuite>

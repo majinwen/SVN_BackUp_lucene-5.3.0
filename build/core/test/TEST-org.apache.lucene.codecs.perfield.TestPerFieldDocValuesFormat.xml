@@ -1,0 +1,128 @@
+<testsuite errors="0" failures="0" tests="91" skipped="0" name="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" hostname="nohost.nodomain" time="45.071" timestamp="2015-09-19T12:19:26">
+   <properties class="java.util.ArrayList">
+      <property name="file.separator" value="\"/>
+      <property name="java.class.path" value="C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\codecs\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\test-framework\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\test-framework\lib\junit-4.10.jar;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\test-framework\lib\randomizedtesting-runner-2.1.13.jar;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\classes\java;C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\classes\test;D:\Softwares\apache-ant-1.9.6\lib\ant-launcher.jar;C:\Users\SAQIB\.ant\lib\ivy-2.3.0.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-antlr.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-bcel.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-bsf.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-log4j.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-oro.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-regexp.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-resolver.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-apache-xalan2.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-commons-logging.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-commons-net.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jai.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-javamail.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jdepend.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jmf.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-jsch.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-junit.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-junit4.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-netrexx.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-swing.jar;D:\Softwares\apache-ant-1.9.6\lib\ant-testutil.jar;D:\Softwares\apache-ant-1.9.6\lib\ant.jar;C:\Program Files\Java\jdk1.8.0_05\lib\tools.jar;C:\Users\SAQIB\.ivy2\cache\com.carrotsearch.randomizedtesting\junit4-ant\jars\junit4-ant-2.1.13.jar"/>
+      <property name="java.class.version" value="52.0"/>
+      <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_05\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+      <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_05\jre"/>
+      <property name="java.io.tmpdir" value="./temp"/>
+      <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_05\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Broadcom\Broadcom 802.11 Network Adapter\Driver;C:\Program Files\TortoiseSVN\bin;D:\Softwares\apache-ant-1.9.6\\bin;%USERPROFILE%\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Java\jdk1.8.0_05\bin;D:\Softwares\apache-ant-1.9.6\bin;C:\Program Files\Skype\Phone\;."/>
+      <property name="java.specification.name" value="Java Platform API Specification"/>
+      <property name="java.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.specification.version" value="1.8"/>
+      <property name="java.vendor" value="Oracle Corporation"/>
+      <property name="java.vendor.url" value="http://java.oracle.com/"/>
+      <property name="java.version" value="1.8.0_05"/>
+      <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+      <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+      <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.specification.version" value="1.8"/>
+      <property name="java.vm.vendor" value="Oracle Corporation"/>
+      <property name="java.vm.version" value="25.5-b02"/>
+      <property name="junit4.memory.total" value="16252928"/>
+      <property name="junit4.pidString" value="8348@localhost"/>
+      <property name="junit4.processors" value="4"/>
+      <property name="line.separator" value="
+"/>
+      <property name="os.arch" value="x86"/>
+      <property name="os.name" value="Windows 7"/>
+      <property name="os.version" value="6.1"/>
+      <property name="path.separator" value=";"/>
+      <property name="user.dir" value="C:\Users\SAQIB\Downloads\lucene-5.3.0-src\lucene-5.3.0\build\core\test\J1"/>
+      <property name="user.home" value="C:\Users\SAQIB"/>
+      <property name="user.name" value="SAQIB"/>
+   </properties>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedFixedLengthVsStoredFields" time="2.878"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumericsMultipleValuesVsStoredFields" time="0.98"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testCodecUsesOwnBytes" time="0.264"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedBytesTwoDocumentsMerged" time="0.021"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreeFieldsMixed" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBytesTwoDocumentsMerged" time="0.149"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetVariableLengthSingleValuedVsStoredFields" time="2.771"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBooleanNumericsVsStoredFields" time="0.933"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreads3" time="2.719"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBytesWithNewline" time="0.009"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoDocumentsFirstMissingMerge" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreeFieldsMixed2" time="0.015"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoNumbersOneMissing" time="0.18"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetOneValue" time="0.015"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoDocumentsLastMissing" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoBytesOneMissing" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedBytesThreeDocuments" time="0.009"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testMergeStability" time="0.179"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTermsEnum" time="0.009"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBytes" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoValuesUnordered" time="0.011"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testZeroOrMin" time="0.139"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetFixedLengthManyValuesPerDocVsStoredFields" time="0.469"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBinaryFixedLengthVsStoredFields" time="0.298"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetEnumAdvanceIndependently" time="0.015"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testVeryLargeButLegalBytes" time="0.011"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBigNumericRange" time="0.022"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testMultiClose" time="0.063"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetThreeValuesTwoDocs" time="0.033"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testOneSortedNumberOneMissing" time="0.011"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedBytes" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testMissingSortedBytes" time="0.008"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testEmptyBinaryValueOnPageSizes" time="0.216"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testRandomSortedBytes" time="0.073"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testOneFloat" time="2.313"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoNumbersOneMissingWithMerging" time="0.019"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoDocumentsNumeric" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreads2" time="6.138"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoBinaryValues" time="0.091"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testCodecUsesOwnSortedBytes" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoFieldsMixed" time="0.028"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testOneNumber" time="0.188"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoDocumentsFirstMissing" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoDocumentsMerged" time="0.02"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetMergeAwayAllValues" time="0.058"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testNumberMergeAwayAllValues" time="0.02"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoSortedNumberOneMissing" time="0.007"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumberMergeAwayAllValues" time="0.018"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetVariableLengthVsStoredFields" time="1.522"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testRamBytesUsed" time="2.198"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedMergeAwayAllValues" time="0.051"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedTermsEnum" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoFields" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumericsFewUniqueSetsVsStoredFields" time="0.174"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testGCDCompression" time="0.186"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedBytesTwoDocuments" time="0.029"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoBytesOneMissingWithMerging" time="0.078"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testByteNumericsVsStoredFields" time="0.232"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testOneSortedNumber" time="0.008"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetFixedLengthSingleValuedVsStoredFields" time="1.749"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBinaryVariableLengthVsStoredFields" time="0.095"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testVeryLargeButLegalSortedBytes" time="0.012"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreeNumbersOneMissingWithMerging" time="0.025"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testLongNumericsVsStoredFields" time="0.248"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoFieldsTwoFormats" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedVariableLengthVsStoredFields" time="1.525"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetFixedLengthFewUniqueSetsVsStoredFields" time="1.696"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testShortNumericsVsStoredFields" time="0.364"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testRandomExceptions" time="0.855"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testEmptySortedBytes" time="0.02"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testDocValuesSimple" time="0.019"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBigNumericRange2" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetVariableLengthManyValuesPerDocVsStoredFields" time="0.269"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoValues" time="0.01"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreads" time="0.341"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumberMerge" time="0.016"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoSortedNumberSameValue" time="0.008"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoDocumentsMerged" time="0.017"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetVariableLengthFewUniqueSetsVsStoredFields" time="2.287"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetFixedLengthVsStoredFields" time="6.584"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedEnumAdvanceIndependently" time="0.007"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumericsSingleValuedMissingVsStoredFields" time="0.106"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testIntNumericsVsStoredFields" time="0.143"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testEmptyBytes" time="0.011"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoNumbers" time="0.011"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testZeros" time="0.11"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedNumericsSingleValuedVsStoredFields" time="0.111"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testSortedSetTwoDocumentsLastMissingMerge" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testBytesMergeAwayAllValues" time="0.013"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testTwoSortedNumber" time="0.009"/>
+   <testcase classname="org.apache.lucene.codecs.perfield.TestPerFieldDocValuesFormat" name="testThreeBytesOneMissingWithMerging" time="0.017"/>
+   <system-out><![CDATA[]]></system-out>
+   <system-err><![CDATA[]]></system-err>
+</testsuite>
