@@ -1,5 +1,4 @@
 Analysis README file
-
 INTRODUCTION
 
 The Analysis Module provides analysis capabilities to Lucene and Solr
