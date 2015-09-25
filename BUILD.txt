@@ -1,4 +1,5 @@
 Lucene Build Instructions
+
 Basic steps:
   0) Install JDK 1.7 (or greater), Ant 1.8.2+, Ivy 2.2.0
   1) Download Lucene from Apache and unpack it
