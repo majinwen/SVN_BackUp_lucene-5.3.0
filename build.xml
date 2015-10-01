@@ -240,7 +240,6 @@
     <modules-crawl target="javadocs"
                    failonerror="true"/>
   </target>
-  
   <!-- rat-sources-typedef is *not* a useless dependency. do not remove -->
   <target name="rat-sources" depends="rat-sources-typedef,common.rat-sources">
     <subant target="rat-sources" failonerror="true" inheritall="false">
