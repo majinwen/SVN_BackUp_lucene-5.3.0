@@ -28,6 +28,9 @@ grant {
   // should be enclosed within common.dir, but just in case:
   permission java.io.FilePermission "${junit4.childvm.cwd}", "read";
 
+  permission java.io.FilePermission "c:\jacoco-filter.txt", "read";
+
+  
   // jenkins wants to read outside its sandbox, to use a special linedocs file.
   // this is best effort and not really supported.
   permission java.io.FilePermission "/home/jenkins/lucene-data/enwiki.random.lines.txt", "read";
