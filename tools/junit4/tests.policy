@@ -28,8 +28,7 @@ grant {
   // should be enclosed within common.dir, but just in case:
   permission java.io.FilePermission "${junit4.childvm.cwd}", "read";
 
-  permission java.io.FilePermission "c:\jacoco-filter.txt", "read";
-
+  
   
   // jenkins wants to read outside its sandbox, to use a special linedocs file.
   // this is best effort and not really supported.
@@ -41,6 +40,8 @@ grant {
   permission java.io.FilePermission "${junit4.childvm.cwd}${/}jacoco.db", "write";
   permission java.io.FilePermission "${junit4.tempDir}${/}*", "read,write,delete";
   permission java.io.FilePermission "${clover.db.dir}${/}-", "read,write,delete";
+  permission java.io.FilePermission "c:/jacoco-filter.txt", "read";
+
   
   // needed by SSD detection tests in TestIOUtils (creates symlinks)
   permission java.nio.file.LinkPermission "symbolic";
