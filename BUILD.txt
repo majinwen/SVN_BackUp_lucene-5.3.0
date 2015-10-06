@@ -35,7 +35,6 @@ If you skip this step, the Lucene build system will offer to do it
 for you.
 
 Step 1) Download Lucene from Apache
-
 We'll assume you already did this, or you wouldn't be reading this
 file.  However, you might have received this file by some alternate
 route, or you might have an incomplete copy of the Lucene, so: Lucene
